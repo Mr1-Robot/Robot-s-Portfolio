@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../index.css'
 
 const Contact = () => {
@@ -31,10 +31,6 @@ const Contact = () => {
       required: true,
     },
   ];
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
 
   const onChange = (e) => {
     setValues({ ...values, [e.target.name] : e.target.value})
