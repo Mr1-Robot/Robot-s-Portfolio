@@ -11,3 +11,11 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span {
+  visibility: visible;
+}
