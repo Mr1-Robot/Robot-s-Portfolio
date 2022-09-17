@@ -2,7 +2,6 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-
 const SocialLinks = () => {
 
     const links = [
@@ -32,7 +31,7 @@ const SocialLinks = () => {
             Mail <HiOutlineMail size={30} />
           </>
         ),
-        href: "mailto: robotmr969@gmail.com",
+        href: "mailto:robotmr969@gmail.com",
       },
       {
         id: 4,
@@ -41,7 +40,7 @@ const SocialLinks = () => {
             Resume <BsFillPersonLinesFill size={30} />
           </>
         ),
-        href: `/Muammar_Mohammed_CV.pdf`,
+        href: 'Muammar_Mohammed_CV.pdf',
         style: "rounded-br-md",
         download: true,
       },
